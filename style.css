@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 .h-w {
-    width: 10em;
-    padding: 150px 20px 0px 30px;
+    width: 9em;
+    padding: 130px 20px 0px 30px;
 }
 .wip, .links {
     color: white;
@@ -24,11 +24,13 @@ body {
 .pages {
     color: lightgray;
     text-decoration: none;
-    margin: 0px;
 }
 .pages:hover {
     text-decoration: underline;
     color: lightskyblue;
+}
+.pages2 {
+    margin: 7px;
 }
 small {
     color: rgba(255, 255, 255, 0.745);
