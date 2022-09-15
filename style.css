@@ -1,0 +1,64 @@
+body {
+    background-color: #2d2f30;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+.h-w {
+    width: 10em;
+    padding: 150px 20px 0px 30px;
+}
+.wip, .links {
+    color: white;
+}
+.wip {
+    font-weight: bolder;
+    padding: 15px 20px 0px 20px;
+    margin: 10px;
+    font-size: 40px;
+}
+.links {
+    padding-top: 10px;
+    font-size: 25px;
+    margin: 20px 10px 15px 10px;
+}
+.pages {
+    color: lightgray;
+    text-decoration: none;
+    margin: 0px;
+}
+.pages:hover {
+    text-decoration: underline;
+    color: lightskyblue;
+}
+small {
+    color: rgba(255, 255, 255, 0.745);
+}
+footer {
+    color: lightyellow;
+}
+
+
+@media screen and (min-width: 600px) {
+    .wip {
+        font-size: 50px;
+    }
+    .links {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .wip {
+        font-size: 30px;
+    }
+    .links {
+        font-size: 23px;
+    }
+    .h-w {
+        width: 7em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .h-w {
+        width: 7em;
+    }
+}
